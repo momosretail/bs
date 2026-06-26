@@ -90,9 +90,9 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
 .route-step-alt{display:flex;align-items:flex-start;gap:7px;font-size:11px;color:#3A3530;line-height:1.6;margin-top:3px;padding-top:3px;border-top:1px dashed #EEE;}
 .route-opt-label{font-size:10px;font-weight:700;color:#999;min-width:28px;padding-top:1px;}
 .mbadge{font-size:10px;font-weight:700;padding:1px 6px;border-radius:3px;white-space:nowrap;flex-shrink:0;}
-.mb-4{background:#D0E4F8;color:#1A4A8A;} .mb-7{background:#DDD0BE;color:#5A3810;}
-.mb-3{background:#F8D0D0;color:#8A1A1A;} .mb-2{background:#D0DCF8;color:#1A2A8A;}
-.mb-6{background:#D0F0D8;color:#1A6018;} .mb-walk{background:#E8E4DC;color:#3A3530;}
+.mb-4{background:#00A5DE;color:#fff;} .mb-7{background:#747F00;color:#fff;}
+.mb-3{background:#EF7C1C;color:#fff;} .mb-2{background:#00A84D;color:#fff;}
+.mb-6{background:#CD7C2F;color:#fff;} .mb-walk{background:#E8E4DC;color:#3A3530;}
 .mb-bus{background:#D0EAD0;color:#1A6018;} .mb-taxi{background:#FFF0C0;color:#7A5000;}
 .mcost{font-size:10px;font-weight:700;background:#FFF3CC;color:#7A5000;padding:1px 6px;border-radius:3px;white-space:nowrap;}
 .mheat{font-size:10px;color:#E07040;font-weight:600;}
@@ -136,15 +136,15 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
 
 <div class="ktx">
   <div class="ktx-leg">
-    <div class="ktx-sta"><div class="ktx-name">🚉 부산역</div><div class="ktx-t">06:09 출발</div></div>
-    <div class="ktx-mid"><div class="ktx-info">KTX 008 · 2시간 56분</div><div class="ktx-line"></div></div>
-    <div class="ktx-sta"><div class="ktx-name">서울역 🏙️</div><div class="ktx-t">09:05 도착</div></div>
+    <div class="ktx-sta"><div class="ktx-name">🚉 부산역</div><div class="ktx-t">05:39 출발</div></div>
+    <div class="ktx-mid"><div class="ktx-info">KTX 006 · 2시간 46분</div><div class="ktx-line"></div></div>
+    <div class="ktx-sta"><div class="ktx-name">서울역 🏙️</div><div class="ktx-t">08:25 도착</div></div>
   </div>
   <div class="ktx-sep"></div>
   <div class="ktx-leg">
-    <div class="ktx-sta"><div class="ktx-name">🚉 서울역</div><div class="ktx-t">출발 미정</div></div>
+    <div class="ktx-sta"><div class="ktx-name">🚉 서울역</div><div class="ktx-t">17:58 출발 · KTX 053</div></div>
     <div class="ktx-mid"><div class="ktx-info">KTX · 약 2시간 30분</div><div class="ktx-line"></div></div>
-    <div class="ktx-sta"><div class="ktx-name">부산역 🏠</div><div class="ktx-t">도착 미정</div></div>
+    <div class="ktx-sta"><div class="ktx-name">부산역 🏠</div><div class="ktx-t">20:35 도착</div></div>
   </div>
 </div>
 
@@ -162,18 +162,18 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
 <div class="tl">
 
   <div class="tl-row arrive">
-    <div class="tl-time">09:05</div>
+    <div class="tl-time">08:25</div>
     <div class="tl-card arrive-card"><b>서울역 도착</b></div>
   </div>
 
   <!-- ① 바위위 -->
   <div class="tl-row visit c1">
-    <div class="tl-time">09:25</div>
+    <div class="tl-time">08:45</div>
     <div class="tl-card">
       <div class="visit-card" onclick="toggleRoute(this)">
         <div class="vc-main">
           <div class="vc-top"><span class="vc-num">①</span><span class="vc-name">바위위 (BAWIWI by TAFFIN)</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">09:25 – 10:05 · 40분 · 07:30~17:00 (월·화 휴무)</div>
+          <div class="vc-meta">08:45 – 09:25 · 40분 · 07:30~17:00 (월·화 휴무)</div>
           <div class="vc-tags"><span class="vtag t-blue">프랑스 정통</span><span class="vtag t-blue">바게트</span><span class="vtag t-blue">페이스트리</span></div>
         </div>
         <div class="vc-route">
@@ -190,12 +190,12 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
 
   <!-- ② 따팡 델리 -->
   <div class="tl-row visit c2">
-    <div class="tl-time">10:05</div>
+    <div class="tl-time">09:33</div>
     <div class="tl-card">
       <div class="visit-card" onclick="toggleRoute(this)">
         <div class="vc-main">
           <div class="vc-top"><span class="vc-num">②</span><span class="vc-name">따팡 델리 (TAFFIN Deli)</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">10:05 – 10:45 · 40분 · 10:00~14:00 (수·목·금) · <span class="mnote">⚠️ 14:00 마감</span></div>
+          <div class="vc-meta">09:33 – 10:13 · 40분 · 10:00~14:00 (수·목·금) · <span class="mnote">⚠️ 14:00 마감</span></div>
           <div class="vc-tags"><span class="vtag t-gold">샌드위치</span><span class="vtag t-gold">살라드</span><span class="vtag t-gold">구움과자</span></div>
         </div>
         <div class="vc-route">
@@ -211,7 +211,7 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
 
   <!-- ③ 컨트리보이 -->
   <div class="tl-row visit c3">
-    <div class="tl-time">11:20</div>
+    <div class="tl-time">10:55</div>
     <div class="tl-card">
       <div class="visit-card" onclick="toggleRoute(this)">
         <div class="vc-main">
@@ -222,12 +222,11 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
         <div class="vc-route">
           <div class="route-label">다음 장소 이동</div>
           <div class="route-steps">
-            <div class="route-step"><span class="mbadge mb-walk">도보 10분</span>따팡 델리 → 숙대입구역</div>
-            <div class="route-step"><span class="mbadge mb-4">4호선</span>숙대입구 → 총신대입구(이수) 4정거장 8분</div>
-            <div class="route-step"><span class="mbadge mb-7">7호선</span>이수 환승 → 내방 1정거장 2분</div>
-            <div class="route-step"><span class="mbadge mb-walk">도보 10분</span>내방역 → 컨트리보이</div>
+            <div class="route-step"><span class="mbadge mb-walk">도보 14분</span>따팡 → 숙대입구역 2번 출구 843m</div>
+            <div class="route-step"><span class="mbadge mb-4">4호선</span>숙대입구 → 총신대입구역 5정거장 13분 (남태령·오이도 방면)</div>
+            <div class="route-step"><span class="mbadge mb-walk">도보 16분</span>총신대입구역 2번 출구 → 컨트리보이 863m</div>
           </div>
-          <div class="route-total">⏱ 총 약 35분</div>
+          <div class="route-total">⏱ 총 약 42분 · 1,550원</div>
         </div>
       </div>
     </div>
@@ -235,12 +234,12 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
 
   <!-- ④ 프레드므아 -->
   <div class="tl-row visit c4">
-    <div class="tl-time">12:30</div>
+    <div class="tl-time">11:55</div>
     <div class="tl-card">
       <div class="visit-card" onclick="toggleRoute(this)">
         <div class="vc-main">
           <div class="vc-top"><span class="vc-num">④</span><span class="vc-name">프레드므아 청담</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">12:30 – 13:30 · 1시간 · 08:30~19:30</div>
+          <div class="vc-meta">11:55 – 12:55 · 1시간 · 08:30~19:30</div>
           <div class="vc-tags"><span class="vtag t-purple">크루아상</span><span class="vtag t-purple">샌드위치바</span><span class="vtag t-purple">프렌치 브런치</span></div>
         </div>
         <div class="vc-route">
@@ -258,12 +257,12 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
 
   <!-- ⑤ 띠띠빵빵 -->
   <div class="tl-row visit c5">
-    <div class="tl-time">13:43</div>
+    <div class="tl-time">12:53</div>
     <div class="tl-card">
       <div class="visit-card" onclick="toggleRoute(this)">
         <div class="vc-main">
           <div class="vc-top"><span class="vc-num">⑤</span><span class="vc-name">띠띠빵빵</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">13:43 – 14:33 · 50분 · 10:00~18:00 (화~토)</div>
+          <div class="vc-meta">13:08 – 13:58 · 50분 · 10:00~18:00 (화~토)</div>
           <div class="vc-tags"><span class="vtag t-orange">바게트</span><span class="vtag t-orange">크루아상</span><span class="vtag t-orange">프랑스 정통</span></div>
         </div>
         <div class="vc-route">
@@ -279,12 +278,12 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
 
   <!-- ⑥ 헤이즈밀 -->
   <div class="tl-row visit c6">
-    <div class="tl-time">14:35</div>
+    <div class="tl-time">14:10</div>
     <div class="tl-card">
       <div class="visit-card" onclick="toggleRoute(this)">
         <div class="vc-main">
           <div class="vc-top"><span class="vc-num">⑥</span><span class="vc-name">헤이즈밀베이커리 본점</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">14:35 – 15:25 · 50분 · 09:00~20:00 (수~일)</div>
+          <div class="vc-meta">14:10 – 15:00 · 50분 · 09:00~20:00 (수~일)</div>
           <div class="vc-tags"><span class="vtag t-pink">사워도우</span><span class="vtag t-pink">오픈토스트</span><span class="vtag t-pink">브런치</span></div>
         </div>
         <div class="vc-route">
@@ -298,32 +297,11 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
     </div>
   </div>
 
-  <!-- ⑦ 크레미엘 -->
-  <div class="tl-row visit c7">
-    <div class="tl-time">16:00</div>
-    <div class="tl-card">
-      <div class="visit-card" onclick="toggleRoute(this)">
-        <div class="vc-main">
-          <div class="vc-top"><span class="vc-num">⑦</span><span class="vc-name">크레미엘</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">16:00 – 17:00 · 1시간 · 11:00~19:00 (목~월, 화·수 휴무)</div>
-          <div class="vc-tags"><span class="vtag t-teal">프랑스 페이스트리</span><span class="vtag t-teal">크루아상</span><span class="vtag t-teal">비에누아즈리</span></div>
-        </div>
-        <div class="vc-route">
-          <div class="route-label">다음 장소 이동</div>
-          <div class="route-steps">
-            <div class="route-step"><span class="mbadge mb-walk">도보 8분</span>헤이즈밀 → 신사역</div>
-            <div class="route-step"><span class="mbadge mb-3">3호선</span>신사 → 양재 4정거장 12분</div>
-            <div class="route-step"><span class="mbadge mb-walk">도보 8분</span>양재역 → 크레미엘</div>
-          </div>
-          <div class="route-total">⏱ 총 약 30분</div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- ⑦ 크레미엘 → DAY2로 이동 -->
 
   <div class="tl-row special checkin">
     <div class="tl-time">17:30</div>
-    <div class="tl-card checkin-card"><b style="color:#8A5A10;">🏨 숙소 체크인</b> <span style="font-size:11px;color:#AAA;margin-left:8px;">짐 정리 및 휴식</span></div>
+    <div class="tl-card checkin-card"><b style="color:#8A5A10;">🏨 숙소 체크인</b> <span style="font-size:11px;color:#AAA;margin-left:8px;">강남역 인근 · 짐 정리 및 휴식</span></div>
   </div>
   <div class="tl-row special" style="--dot-color:#3A60A8">
     <div class="tl-time">19:00</div>
@@ -346,18 +324,18 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
 <div class="tl">
 
   <div class="tl-row arrive">
-    <div class="tl-time">09:05</div>
+    <div class="tl-time">08:25</div>
     <div class="tl-card arrive-card"><b>서울역 도착</b></div>
   </div>
 
   <!-- ① 바위위 -->
   <div class="tl-row visit c1">
-    <div class="tl-time">09:15</div>
+    <div class="tl-time">08:35</div>
     <div class="tl-card">
       <div class="visit-card" onclick="toggleRoute(this)">
         <div class="vc-main">
           <div class="vc-top"><span class="vc-num">①</span><span class="vc-name">바위위 (BAWIWI by TAFFIN)</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">09:15 – 09:55 · 40분 · 07:30~17:00 (월·화 휴무)</div>
+          <div class="vc-meta">08:35 – 09:15 · 40분 · 07:30~17:00 (월·화 휴무)</div>
           <div class="vc-tags"><span class="vtag t-blue">프랑스 정통</span><span class="vtag t-blue">바게트</span><span class="vtag t-blue">페이스트리</span></div>
         </div>
         <div class="vc-route">
@@ -373,12 +351,12 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
 
   <!-- ② 따팡 델리 -->
   <div class="tl-row visit c2">
-    <div class="tl-time">10:03</div>
+    <div class="tl-time">09:23</div>
     <div class="tl-card">
       <div class="visit-card" onclick="toggleRoute(this)">
         <div class="vc-main">
           <div class="vc-top"><span class="vc-num">②</span><span class="vc-name">따팡 델리 (TAFFIN Deli)</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">10:03 – 10:45 · 40분 · 10:00~14:00 (수·목·금) · <span class="mnote">⚠️ 14:00 마감</span></div>
+          <div class="vc-meta">09:23 – 10:05 · 40분 · 10:00~14:00 (수·목·금) · <span class="mnote">⚠️ 14:00 마감</span></div>
           <div class="vc-tags"><span class="vtag t-gold">샌드위치</span><span class="vtag t-gold">살라드</span><span class="vtag t-gold">구움과자</span></div>
         </div>
         <div class="vc-route">
@@ -394,23 +372,22 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
 
   <!-- ③ 컨트리보이 -->
   <div class="tl-row visit c3">
-    <div class="tl-time">11:20</div>
+    <div class="tl-time">11:10</div>
     <div class="tl-card">
       <div class="visit-card" onclick="toggleRoute(this)">
         <div class="vc-main">
           <div class="vc-top"><span class="vc-num">③</span><span class="vc-name">컨트리보이</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">11:20 – 11:50 · 30분 · 11:00~15:00 (수~일) · 테이크아웃 전용</div>
+          <div class="vc-meta">10:55 – 11:25 · 30분 · 11:00~15:00 (수~일) · 테이크아웃 전용</div>
           <div class="vc-tags"><span class="vtag t-green">사워도우</span><span class="vtag t-green">치아바타</span><span class="vtag t-green">바게트</span></div>
         </div>
         <div class="vc-route">
           <div class="route-label">다음 장소 이동</div>
           <div class="route-steps">
-            <div class="route-step"><span class="mbadge mb-walk">도보 10분</span>따팡 델리 → 숙대입구역</div>
-            <div class="route-step"><span class="mbadge mb-4">4호선</span>숙대입구 → 총신대입구(이수) 4정거장 8분</div>
-            <div class="route-step"><span class="mbadge mb-7">7호선</span>이수 환승 → 내방 1정거장 2분</div>
-            <div class="route-step"><span class="mbadge mb-walk">도보 10분</span>내방역 → 컨트리보이</div>
+            <div class="route-step"><span class="mbadge mb-walk">도보 14분</span>따팡 → 숙대입구역 2번 출구 843m</div>
+            <div class="route-step"><span class="mbadge mb-4">4호선</span>숙대입구 → 총신대입구역 5정거장 13분 (남태령·오이도 방면)</div>
+            <div class="route-step"><span class="mbadge mb-walk">도보 16분</span>총신대입구역 2번 출구 → 컨트리보이 863m</div>
           </div>
-          <div class="route-total">⏱ 총 약 35분</div>
+          <div class="route-total">⏱ 총 약 42분 · 1,550원</div>
         </div>
       </div>
     </div>
@@ -418,12 +395,12 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
 
   <!-- ④ 프레드므아 -->
   <div class="tl-row visit c4">
-    <div class="tl-time">12:20</div>
+    <div class="tl-time">12:10</div>
     <div class="tl-card">
       <div class="visit-card" onclick="toggleRoute(this)">
         <div class="vc-main">
           <div class="vc-top"><span class="vc-num">④</span><span class="vc-name">프레드므아 청담</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">12:20 – 13:20 · 1시간 · 08:30~19:30</div>
+          <div class="vc-meta">12:10 – 13:10 · 1시간 · 08:30~19:30</div>
           <div class="vc-tags"><span class="vtag t-purple">크루아상</span><span class="vtag t-purple">샌드위치바</span><span class="vtag t-purple">프렌치 브런치</span></div>
         </div>
         <div class="vc-route">
@@ -441,12 +418,12 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
 
   <!-- ⑤ 띠띠빵빵 -->
   <div class="tl-row visit c5">
-    <div class="tl-time">13:25</div>
+    <div class="tl-time">13:15</div>
     <div class="tl-card">
       <div class="visit-card" onclick="toggleRoute(this)">
         <div class="vc-main">
           <div class="vc-top"><span class="vc-num">⑤</span><span class="vc-name">띠띠빵빵</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">13:25 – 14:15 · 50분 · 10:00~18:00 (화~토)</div>
+          <div class="vc-meta">13:15 – 14:05 · 50분 · 10:00~18:00 (화~토)</div>
           <div class="vc-tags"><span class="vtag t-orange">바게트</span><span class="vtag t-orange">크루아상</span><span class="vtag t-orange">프랑스 정통</span></div>
         </div>
         <div class="vc-route">
@@ -462,12 +439,12 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
 
   <!-- ⑥ 헤이즈밀 -->
   <div class="tl-row visit c6">
-    <div class="tl-time">14:20</div>
+    <div class="tl-time">14:10</div>
     <div class="tl-card">
       <div class="visit-card" onclick="toggleRoute(this)">
         <div class="vc-main">
           <div class="vc-top"><span class="vc-num">⑥</span><span class="vc-name">헤이즈밀베이커리 본점</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">14:20 – 15:10 · 50분 · 09:00~20:00 (수~일)</div>
+          <div class="vc-meta">14:10 – 15:00 · 50분 · 09:00~20:00 (수~일)</div>
           <div class="vc-tags"><span class="vtag t-pink">사워도우</span><span class="vtag t-pink">오픈토스트</span><span class="vtag t-pink">브런치</span></div>
         </div>
         <div class="vc-route">
@@ -483,12 +460,12 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
 
   <!-- ⑦ 크레미엘 -->
   <div class="tl-row visit c7">
-    <div class="tl-time">15:45</div>
+    <div class="tl-time">14:56</div>
     <div class="tl-card">
       <div class="visit-card" onclick="toggleRoute(this)">
         <div class="vc-main">
           <div class="vc-top"><span class="vc-num">⑦</span><span class="vc-name">크레미엘</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">15:40 – 16:40 · 1시간 · 11:00~19:00 (목~월, 화·수 휴무)</div>
+          <div class="vc-meta">15:40 – 16:40 · 1시간 · 11:00~19:00 (목~월, 화·수 휴무) · 포장</div>
           <div class="vc-tags"><span class="vtag t-teal">프랑스 페이스트리</span><span class="vtag t-teal">크루아상</span><span class="vtag t-teal">비에누아즈리</span></div>
         </div>
         <div class="vc-route">
@@ -506,7 +483,7 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
 
   <div class="tl-row special checkin">
     <div class="tl-time">17:30</div>
-    <div class="tl-card checkin-card"><b style="color:#8A5A10;">🏨 숙소 체크인</b> <span style="font-size:11px;color:#AAA;margin-left:8px;">짐 정리 및 휴식</span></div>
+    <div class="tl-card checkin-card"><b style="color:#8A5A10;">🏨 숙소 체크인</b> <span style="font-size:11px;color:#AAA;margin-left:8px;">강남역 인근 · 짐 정리 및 휴식</span></div>
   </div>
   <div class="tl-row special">
     <div class="tl-time">19:00</div>
@@ -525,89 +502,118 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
 <!-- ═══ DAY 2 공통 ═══ -->
 <div class="day-hdr">
   <span class="day-badge">DAY 2</span>
-  <span class="day-title">7월 2일 (목) — 공덕 · 성수 · 동대입구 · 성북 → 서울역</span>
+  <span class="day-title">7월 2일 (목) — 강남 · 양재 · 공덕 · 성수 · 성북 → 서울역</span>
 </div>
 <div class="tl">
 
-  <!-- ⑧ 수더분 -->
+  <!-- ⑧ 꼼다비뛰드 -->
   <div class="tl-row visit c8">
-    <div class="tl-time">10:30</div>
+    <div class="tl-time">10:00</div>
     <div class="tl-card">
       <div class="visit-card" onclick="toggleRoute(this)">
         <div class="vc-main">
-          <div class="vc-top"><span class="vc-num">⑧</span><span class="vc-name">수더분</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">10:30 – 11:10 · 40분 · 10:30~19:30 (일·월 휴무) · <span class="mnote">⚠️ 오픈 직후 방문 필수</span></div>
+          <div class="vc-top"><span class="vc-num">⑧</span><span class="vc-name">꼼다비뛰드</span><span class="vc-arrow">▾</span></div>
+          <div class="vc-meta">10:00 – 11:00 · 1시간 · 10:00~16:00 (금·토·목) · 강남구 강남대로110길 62 B1</div>
+          <div class="vc-tags"><span class="vtag t-blue">크루아상</span><span class="vtag t-blue">비에누아즈리</span><span class="vtag t-blue">프랑스 정통</span></div>
+        </div>
+        <div class="vc-route">
+          <div class="route-label">다음 장소 이동</div>
+          <div class="route-steps">
+            <div class="route-step"><span class="mbadge mb-walk">도보 9분</span>꼼다비뛰드 → 지하철2호선강남역(중) 정류장 534m</div>
+            <div class="route-step"><span class="mbadge mb-bus">🚌 1151·9202 등</span>5정류장 이동 → 말죽거리공원사거리(중) 하차 14분</div>
+            <div class="route-step"><span class="mbadge mb-walk">도보 7분</span>정류장 → 크레미엘 396m</div>
+          </div>
+          <div class="route-total">⏱ 총 약 30분 · 1,500원~3,450원</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ⑨ 크레미엘 -->
+  <div class="tl-row visit c9">
+    <div class="tl-time">11:25</div>
+    <div class="tl-card">
+      <div class="visit-card" onclick="toggleRoute(this)">
+        <div class="vc-main">
+          <div class="vc-top"><span class="vc-num">⑨</span><span class="vc-name">크레미엘</span><span class="vc-arrow">▾</span></div>
+          <div class="vc-meta">11:25 – 11:55 · 30분 · 11:00~19:00 (목~월, 화·수 휴무)</div>
+          <div class="vc-tags"><span class="vtag t-teal">프랑스 페이스트리</span><span class="vtag t-teal">크루아상</span><span class="vtag t-teal">비에누아즈리</span></div>
+        </div>
+        <div class="vc-route">
+          <div class="route-label">다음 장소 이동</div>
+          <div class="route-steps">
+            <div class="route-step"><span class="mbadge mb-walk">도보 11분</span>크레미엘 → 양재시민의숲역 2번 출구 766m</div>
+            <div class="route-step"><span class="mbadge mb-sin" style="background:#D4003B;color:#fff;">신분당선</span>양재시민의숲 → 신논현 3정거장 5분 (양재 방면)</div>
+            <div class="route-step"><span class="mbadge mb-walk">도보 3분</span>신논현역 하차 → 9호선 환승 227m</div>
+            <div class="route-step"><span class="mbadge mb-9" style="background:#BDB092;color:#fff;">9호선</span>신논현 → 여의도 4정거장 15분 (고속터미널 방면)</div>
+            <div class="route-step"><span class="mbadge mb-walk">도보 1분</span>여의도역 하차 → 5호선 환승 139m</div>
+            <div class="route-step"><span class="mbadge mb-5" style="background:#996CAC;color:#fff;">5호선</span>여의도 → 공덕 3정거장 5분 (마천 방면)</div>
+            <div class="route-step"><span class="mbadge mb-walk">도보 8분</span>공덕역 1번 출구 → 수더분 535m</div>
+          </div>
+          <div class="route-total">⏱ 총 약 58분 · 3,450원</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ⑩ 수더분 -->
+  <div class="tl-row visit c10">
+    <div class="tl-time">13:08</div>
+    <div class="tl-card">
+      <div class="visit-card" onclick="toggleRoute(this)">
+        <div class="vc-main">
+          <div class="vc-top"><span class="vc-num">⑩</span><span class="vc-name">수더분</span><span class="vc-arrow">▾</span></div>
+          <div class="vc-meta">12:53 – 13:13 · 약 20분 · 10:30~19:30 (일·월 휴무) · <span class="mnote">예약 픽업</span></div>
           <div class="vc-tags"><span class="vtag t-purple">100% 우리밀</span><span class="vtag t-purple">천연발효 사워도우</span><span class="vtag t-purple">치아바타</span></div>
         </div>
         <div class="vc-route">
           <div class="route-label">다음 장소 이동</div>
           <div class="route-steps">
-            <div class="route-step"><span class="mbadge mb-walk">도보 6분</span>수더분 → 공덕역 1번 출구</div>
-            <div class="route-step"><span class="mbadge mb-6">6호선</span>공덕 → 합정 2정거장 4분</div>
-            <div class="route-step"><span class="mbadge mb-2">2호선</span>합정 환승 → 성수 8정거장 18분</div>
-            <div class="route-step"><span class="mbadge mb-walk">도보 8분</span>성수역 → 뺑드에코</div>
+            <div class="route-step"><span class="mbadge mb-walk">도보 10분</span>수더분 → 공덕역 1번 출구 544m</div>
+            <div class="route-step"><span class="mbadge mb-5" style="background:#996CAC;color:#fff;">5호선</span>공덕 → 을지로4가 6정거장 12분 (마천·하남검단산 방면)</div>
+            <div class="route-step"><span class="mbadge mb-2">2호선</span>을지로4가 환승 → 뚝섬 6정거장 12분 (성수 방면)</div>
+            <div class="route-step"><span class="mbadge mb-walk">도보 12분</span>뚝섬역 5번 출구 → 뺑드에코 676m</div>
           </div>
-          <div class="route-total">⏱ 총 약 40분</div>
+          <div class="route-total">⏱ 총 약 46분</div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- ⑨ 뺑드에코 -->
-  <div class="tl-row visit c9">
-    <div class="tl-time">11:50</div>
+  <!-- ⑪ 뺑드에코 -->
+  <div class="tl-row visit c11">
+    <div class="tl-time">13:59</div>
     <div class="tl-card">
       <div class="visit-card" onclick="toggleRoute(this)">
         <div class="vc-main">
-          <div class="vc-top"><span class="vc-num">⑨</span><span class="vc-name">뺑드에코</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">11:50 – 12:50 · 1시간 · 11:00~19:00 (일·월 휴무)</div>
+          <div class="vc-top"><span class="vc-num">⑪</span><span class="vc-name">뺑드에코</span><span class="vc-arrow">▾</span></div>
+          <div class="vc-meta">13:59 – 14:19 · 약 20분 · 11:00~19:00 (일·월 휴무) · 포장</div>
           <div class="vc-tags"><span class="vtag t-green">유기농 사워도우</span><span class="vtag t-green">바게트</span><span class="vtag t-green">깜빠뉴</span></div>
         </div>
         <div class="vc-route">
           <div class="route-label">다음 장소 이동</div>
           <div class="route-steps">
-            <div class="route-step"><span class="mbadge mb-walk">도보 8분</span>뺑드에코 → 성수역</div>
-            <div class="route-step"><span class="mbadge mb-2">2호선</span>성수 → 왕십리 2정거장 4분</div>
-            <div class="route-step"><span class="mbadge mb-walk">환승</span>왕십리 → 5호선 → 동대입구역 1정거장 2분</div>
-            <div class="route-step"><span class="mbadge mb-walk">도보 5분</span>동대입구역 5번 출구 → 서울신라호텔</div>
+            <div class="route-step"><span class="mbadge mb-walk">도보 12분</span>뺑드에코 → 뚝섬역 5번 출구 676m</div>
+            <div class="route-step"><span class="mbadge mb-2">2호선</span>뚝섬 → 동대문역사문화공원 5정거장 9분 (성수 방면)</div>
+            <div class="route-step"><span class="mbadge mb-4">4호선</span>동대문역사문화공원 환승 → 한성대입구 3정거장 6분 (불암산 방면)</div>
+            <div class="route-step"><span class="mbadge mb-walk">도보 4분</span>한성대입구역 6번 출구 → 한성대입구6번출구.삼선교 정류장 155m</div>
+            <div class="route-step"><span class="mbadge mb-bus">🚌 성북02</span>4정류장 → 선잠단지.성락원앞 하차 5분</div>
+            <div class="route-step"><span class="mbadge mb-walk">도보 1분</span>정류장 → 밀곳간 본점 86m</div>
           </div>
-          <div class="route-total">⏱ 총 약 25분</div>
+          <div class="route-total">⏱ 총 약 37분 · 1,550원</div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- ⑩ 신라호텔 패스트리 부티크 (선택) -->
-  <div class="tl-row visit c10">
-    <div class="tl-time">13:15</div>
+  <!-- ⑫ 밀곳간 -->
+  <div class="tl-row visit c1">
+    <div class="tl-time">15:35</div>
     <div class="tl-card">
       <div class="visit-card" onclick="toggleRoute(this)">
         <div class="vc-main">
-          <div class="vc-top"><span class="vc-num">⑩</span><span class="vc-name">서울신라호텔 패스트리 부티크</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">13:15 – 14:00 · 45분 · 07:00~22:00 (매일) · <span style="font-size:10px;color:#4A7A5A;font-weight:600;">선택 방문</span></div>
-          <div class="vc-tags"><span class="vtag t-teal">호텔 베이커리</span><span class="vtag t-teal">앙트르메</span><span class="vtag t-teal">구움과자</span></div>
-        </div>
-        <div class="vc-route">
-          <div class="route-label">다음 장소 이동</div>
-          <div class="route-steps">
-            <div class="route-step"><span class="mbadge mb-walk">도보 5분</span>신라호텔 → 동대입구역</div>
-            <div class="route-step"><span class="mbadge mb-3">3호선</span>동대입구 → 안국 2정거장 4분 · 환승 → 4호선 → 한성대입구 2정거장 4분</div>
-            <div class="route-step"><span class="mbadge mb-walk">도보 10분</span>한성대입구역 → 밀곳간</div>
-          </div>
-          <div class="route-total">⏱ 총 약 25분</div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ⑪ 밀곳간 -->
-  <div class="tl-row visit c11">
-    <div class="tl-time">14:25</div>
-    <div class="tl-card">
-      <div class="visit-card" onclick="toggleRoute(this)">
-        <div class="vc-main">
-          <div class="vc-top"><span class="vc-num">⑪</span><span class="vc-name">밀곳간</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">14:25 – 15:10 · 45분 · 09:00~21:00 (연중무휴)</div>
+          <div class="vc-top"><span class="vc-num">⑫</span><span class="vc-name">밀곳간</span><span class="vc-arrow">▾</span></div>
+          <div class="vc-meta">14:56 – 15:16 · 약 20분 · 09:00~21:00 (연중무휴) · 포장</div>
           <div class="vc-tags"><span class="vtag t-blue">소금빵</span><span class="vtag t-blue">사워도우</span><span class="vtag t-blue">구움과자</span></div>
         </div>
         <div class="vc-route">
@@ -621,14 +627,14 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
     </div>
   </div>
 
-  <!-- ⑫ 리델리 -->
-  <div class="tl-row visit c8">
-    <div class="tl-time">15:15</div>
+  <!-- ⑬ 리델리 -->
+  <div class="tl-row visit c2">
+    <div class="tl-time">15:21</div>
     <div class="tl-card">
       <div class="visit-card" onclick="toggleRoute(this)">
         <div class="vc-main">
-          <div class="vc-top"><span class="vc-num">⑫</span><span class="vc-name">리델리 샌드위치</span><span class="vc-arrow">▾</span></div>
-          <div class="vc-meta">15:15 – 16:05 · 50분 · 09:30~20:00 (수 휴무)</div>
+          <div class="vc-top"><span class="vc-num">⑬</span><span class="vc-name">리델리 샌드위치</span><span class="vc-arrow">▾</span></div>
+          <div class="vc-meta">15:21 – 16:21 · 1시간 · 09:30~20:00 (수 휴무)</div>
           <div class="vc-tags"><span class="vtag t-gold">유기농 사워도우</span><span class="vtag t-gold">즉석 샌드위치</span><span class="vtag t-gold">국산 육가공</span></div>
         </div>
         <div class="vc-route">
@@ -645,8 +651,8 @@ body{font-family:'Noto Sans KR',sans-serif;background:#FFFFFF;color:#1E1C1A;min-
   </div>
 
   <div class="tl-row special checkin">
-    <div class="tl-time">16:30</div>
-    <div class="tl-card checkin-card"><b style="color:#8A5A10;">🚄 서울역 도착 · KTX 탑승 준비</b> <span style="font-size:11px;color:#AAA;margin-left:8px;">복귀편 미정</span></div>
+    <div class="tl-time">16:46</div>
+    <div class="tl-card checkin-card"><b style="color:#8A5A10;">🚄 서울역 도착 · KTX 탑승 준비</b> <span style="font-size:11px;color:#AAA;margin-left:8px;">16:46 도착 · KTX 053 17:58 출발 · 부산 20:30 전후 도착</span></div>
   </div>
 
 </div>
